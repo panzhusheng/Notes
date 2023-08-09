@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <gradient android:startColor="#96AFB0"
+                android:endColor="#377780"
+                android:angle="90" />
+            <corners android:radius="15dip" />
+            <padding android:left="10dp" android:top="10dp"
+                android:right="10dp" android:bottom="10dp" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <gradient android:startColor="#377780"
+                android:endColor="#377780"
+                android:angle="90" />
+            <corners android:radius="2dp" />
+            <padding android:left="10dp" android:top="10dp"
+                android:right="10dp" android:bottom="10dp" />
+        </shape>
+    </item>
+    <!--不带状态的放在最后-->
+    <item>
+        <shape>
+            <gradient android:startColor="#50A2AD" android:endColor="#AFC8CC"
+                android:angle="180" />
+            <corners android:radius="15dip" />
+            <padding android:left="10dp" android:top="10dp"
+                android:right="10dp" android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>
